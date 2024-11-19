@@ -1,0 +1,36 @@
+=========================== commit ===========================
+
+add files
+
+    git add .
+
+commit
+
+    git commit -m "[commit message]"
+
+push to github
+
+    git push
+
+=========================== pulling ===========================
+
+pull / update local with repo
+
+    git pull
+
+download repo for new machine
+
+    git clone https://github.com/Kars-Ascended/Minecraft-Shenanigans.git
+    
+=========================== general ===========================
+
+check progress
+
+    git status
+
+=========================== marks ===========================
+
+M = modified
+A = added, waiting for push
+D = deleted
+U = updated but unadded / new
