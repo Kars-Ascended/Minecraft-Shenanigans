@@ -1,0 +1,14 @@
+.nav {
+    position: absolute;
+    top:0; left:0;
+    width:100vw;
+    background-color: #301010;
+    border-bottom: var(--light) solid 1px;
+    height:4em;
+    line-height:4em;
+    padding-left: 0.5em;
+}
+
+.nav a{
+    vertical-align: middle;
+}
