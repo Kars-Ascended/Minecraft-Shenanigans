@@ -6,6 +6,6 @@
 </head>
 <body>
     <div class="main"><p>test updates</p></div>
-    
+    <p>cron test</p>
 </body>
 </html>
