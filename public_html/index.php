@@ -5,7 +5,9 @@
     <link rel="stylesheet" href="css/nav.css">
 </head>
 <body>
-    <div class="main"><p>test updates</p></div>
+    <div class="main"><p>test updates</p>
     <p>cron test</p>
+</div>
+    
 </body>
 </html>
