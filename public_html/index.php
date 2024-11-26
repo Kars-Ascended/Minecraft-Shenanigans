@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="main"><p>test updates</p>
-    <p>cron test 2</p>
+    <p>cron test 3</p>
 </div>
     
 </body>
