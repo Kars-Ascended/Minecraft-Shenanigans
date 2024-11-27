@@ -21,10 +21,10 @@
     position: relative;
 }
 
-.srv1 {background-image: url(/public_files/images/wood.bmp);}
-.srv2 {background-image: url(/public_files/images/stone.bmp);}
-.srv3 {background-image: url(/public_files/images/nether.bmp);}
-.srv4 {background-image: url(/public_files/images/end.bmp);}
+.srv1 {background-image: url(/images/wood.bmp);}
+.srv2 {background-image: url(/images/stone.bmp);}
+.srv3 {background-image: url(/images/nether.bmp);}
+.srv4 {background-image: url(/images/end.bmp);}
 
 .box h1 {margin:0;}
 
