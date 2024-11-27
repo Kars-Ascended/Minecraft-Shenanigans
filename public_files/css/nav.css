@@ -2,13 +2,11 @@
     position: absolute;
     top:0; left:0;
     width:100vw;
-    background-color: #301010;
-    border-bottom: var(--light) solid 1px;
+    background-color: var(--dark);
+    border-bottom: var(--black) solid 1px;
     height:4em;
     line-height:4em;
     padding-left: 0.5em;
 }
 
-.nav a{
-    vertical-align: middle;
-}
+.nav .button { margin: 0.4em; }

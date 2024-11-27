@@ -1,5 +1,6 @@
 :root {
     --white:#DEE1DD;
+    --black: #000;
     --dark:#301010;
     --light:#964A4F;
     --accent:#4D7298;
@@ -18,16 +19,16 @@ html, body {
 }
 
 .main {
-background-color:#0f0f0f;
-min-height: 100vh;
-top:4em;
-position: absolute;
-width:80%;
-padding-inline: 2em;
+    background-color:#0f0f0f;
+    min-height: 100vh;
+    top:4em;
+    position: absolute;
+    width:80%;
+    padding-inline: 2em;
 }
 
 .button {
-    background-color: var(--accent);
+    background-color: var(--light);
     padding:10px;
     border-radius: 5px;
 }
@@ -36,3 +37,7 @@ a {
     color:var(--white);
     text-decoration: none;
 }
+
+.centre {text-align: center;}
+
+a {}

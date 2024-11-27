@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: var(--dark);
+    border: solid 1px var(--light);
+    border-radius: 1em;
+    padding: 0.5em;
+    aspect-ratio: 2 / 1;
+    width:100%;
+    flex: 1 1 calc(50% - 1.5em); /* Wrap every two boxes */
+    background-repeat: repeat;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay color */
+    background-blend-mode: darken;
+    background-size: 4em;
+    position: relative;
+}
+
+.srv1 {background-image: url(/public_files/images/wood.bmp);}
+.srv2 {background-image: url(/public_files/images/stone.bmp);}
+.srv3 {background-image: url(/public_files/images/nether.bmp);}
+.srv4 {background-image: url(/public_files/images/end.bmp);}
+
+.box h1 {margin:0;}
+
+.server_buttons {
+    display: flex;
+    position: absolute;
+    bottom:0;
+    gap: 0.5em;
+}
+
+.server_buttons .button {
+    padding: 7px;
+}
